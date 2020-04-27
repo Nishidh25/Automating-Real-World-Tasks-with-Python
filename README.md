@@ -8,7 +8,7 @@
   * Resize an image
   * Save an image in a specific format in a separate directory
   
-## Week 2 Assesment:
+## Week 2 Assessment:
 ### Process Text Files with Python Dictionaries and Upload to Running Web Service
   * Use the Python OS module to process a directory of text files
   * Manage information stored in Python dictionaries
