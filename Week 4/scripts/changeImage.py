@@ -17,4 +17,4 @@ for file in file_names:
     print("Skipping non-tiff file " + file)
   else:
     img = Image.open(path + '/' + file)
-    img.resize((600,400)).save(path + '/' + file[:-5] + '.jpeg')
+    img.resize((600,400)).convert("RGB").save(path + '/' + file[:-5] + '.jpeg')
